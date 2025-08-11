@@ -1,6 +1,6 @@
 [general]
 import = [
-    "C:\\Users\\sterx\\AppData\\Roaming\\alacritty\\themes\\themes\\kanagawa_dragon.toml"
+    "/Users/erion/.config/alacritty/themes/themes/kanagawa_dragon.toml"
 #
 # DOWNLOAD FROM:
 # https://github.com/alacritty/alacritty-theme
@@ -46,10 +46,10 @@ COLORTERM = "truecolor"
 LANG = "en_US.UTF-8"
 
 [font]
-size = 11
+size = 14
 
 [font.normal]
-family = "Hack Nerd Font"
+family = "Cascadia Code NF"
 style = "Regular"
 
 [[keyboard.bindings]]
@@ -97,18 +97,10 @@ mods = "Command"
 [window]
 decorations = "None"
 dynamic_padding = true
-opacity = 0.8
+opacity = 1
 startup_mode = "Maximized"
 
 [window.padding]
 x = 15
 y = 15
 
-[terminal.shell]
-program = "wsl"
-args = [
-    "-d",
-    "Debian",
-    "--cd",
-    "~"
-]
