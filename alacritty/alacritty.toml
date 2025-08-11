@@ -95,12 +95,11 @@ key = "R"
 mods = "Command"
 
 [window]
-decorations = "None"
+decorations = "full"
 dynamic_padding = true
 opacity = 1
-startup_mode = "Maximized"
+startup_mode = "Fullscreen"
 
 [window.padding]
 x = 15
 y = 15
-
